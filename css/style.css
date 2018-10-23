@@ -169,7 +169,12 @@ header nav ul li:hover {
 
 /***TEAM*****************/
 
-#team
+#team img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
 
 #team
 
@@ -269,6 +274,11 @@ header nav ul li:hover {
 		height: auto;
 	}
 
+	#team img {
+		width: 55%;
+		height: auto;
+	}
+
 	form input, form textarea{
 		width: 60%;
 	}
@@ -342,6 +352,11 @@ header nav ul li:hover {
 	}
 
 	#projects img {
+		width: 70%;
+		height: auto;
+	}
+
+	#team img {
 		width: 70%;
 		height: auto;
 	}
