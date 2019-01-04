@@ -1,5 +1,5 @@
 html, body {
-	margin: 15px;
+	margin: 0px;
 	padding: 0;
 	height: 100%;
 	text-align: center;
@@ -48,7 +48,7 @@ h1, h2, h3, a {
  hr{
  	width: 30px;
  	height: 3px;
- 	background: #494949;
+ 	background: #ffffff;
  	border: 0px;
  	margin: 0 auto 40px auto;
  }
@@ -66,23 +66,19 @@ h1, h2, h3, a {
 
  header{
  	width: 100%;
- 	height: 65px;
- 	position: fixed;
- 	top: 0px;
- 	left: 0px;
- 	background: #99ccff;
+ 	height: 160px;
+ 	top: 20px;
+ 	left: 20px;
+ 	right: 20p
+ 	background: #ffffff;
  	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
  	z-index: 1;
- 	border-radius: 50px; 
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-o-border-radius: 50px;
  }
 
  #logo{
- 	width: 140px;
+ 	width: 320px;
  	float: left;
- 	margin: 10px 0 0 50px;
+ 	margin: 30px 0 0 0px;
  }
 
 #logo:hover{
@@ -94,15 +90,22 @@ h1, h2, h3, a {
 
  }
 
+ header h1{
+ 	float: left;
+ 	margin-top: 60px;
+ }
+
  header nav {
 
  	float: right;
- 	margin: 10px 50px 0 0 ;
+ 	margin: 10px 0 0px 0 ;
  }
 
 header nav ul li{
 	float: left;
-	margin-left: 16px;
+	margin-left: 0px;
+	margin-top: 100px;
+	margin-right: 50px;
 }
 
 header nav ul li a{
@@ -113,18 +116,58 @@ header nav ul li:hover {
 	padding-top: 5px;
 } 
 
+header hr {
+	width: 1000%;
+    height: 0px;
+    border-bottom: 6px solid #0000FF;
+    margin: 0 0;
+    padding: 0 0 0 0; 
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  margin-top: 87px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  padding-right: 25px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.5;}
+  to {opacity: 1;}
+}
+
 /****HOME*****************/
 
 #home {
-	background: url(../img/land.JPG);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	border-radius: 50px; 
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-o-border-radius: 50px;
-}
+	/*background: url(../img/land.JPG);*/
+	background-color: #494949;
+	width: 100%;
+ 	height: 100%;
+ 	left: 20px;
+ 	margin-top: 6px;
+
+ }
 
 #home h1 {
 
@@ -149,18 +192,14 @@ header nav ul li:hover {
 
 /***DEVELOPMENT**********/
 
-#dev{
+#blog{
 	background-color: #626262;
-	border-radius: 50px; 
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-o-border-radius: 50px;
-}
+	margin-top: 6px;
 }
 
 /***Projects*****************/
 
-#projects img:hover{
+#chapter img:hover{
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -169,21 +208,17 @@ header nav ul li:hover {
 
 /***TEAM*****************/
 
-#team img:hover{
+#person{
+	background-color: #626262;
+	margin-top: 6px;
+}
+
+#person img:hover{
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 	-o-transform: scale(1.2);
 }
-
-#team
-
-#team
-
-#team
-
-#team
-
 /***ABOUT****************/
 
 
@@ -208,11 +243,13 @@ header nav ul li:hover {
 }
 
 #about {
-	background-color: #ccffff;
-	border-radius: 50px; 
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-o-border-radius: 50px;
+	background-color: #626262;
+	margin-top: 6px;
+}
+
+#contact{
+	background-color: #626262;
+	margin-top: 6px;
 }
 
 
@@ -274,7 +311,7 @@ header nav ul li:hover {
 		height: auto;
 	}
 
-	#team img {
+	#team img{
 		width: 55%;
 		height: auto;
 	}
@@ -356,7 +393,7 @@ header nav ul li:hover {
 		height: auto;
 	}
 
-	#team img {
+	#team img{
 		width: 70%;
 		height: auto;
 	}

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1"> 
 
-		<title>dinoware-studios</title>
+		<title>Simple-Rescue|Katasrophenschutz-Software|Rescue Solutions</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Patua+One|Ropa+Sans" rel="stylesheet"> 
@@ -14,93 +14,64 @@
 
 	</head>
 
+
 <!---Header-------->
 	<body>
 		<header>
+			<hr>
 			<div id="logo">	<!--/#logo -->
 				<a href="#"></a>
 					<img src="img/logo.png" alt="Logo">
+					<hr>
+			</div>
+			<div>
+				<h1>Simple-Rescue</h1>
 			</div>
 
-			<nav id="main-nav">
-				<i class="fas fa-bars"></i>
-				<ul>
-					<a href="#home" title="home"><li>home</li></a>
-					<a href="#dev" title="developement"><li>developement</li></a>
-					<a href="#team" title="team"><li>team</li></a>
-					<a href="#about" title="about"><li>about</li></a>
-					<a href="#contact" title="contact"><li>contact</li></a>
-				</ul>
-			</nav>
+			<div id="header-nav">
+				<nav id="main-nav">
+					<i class="fas fa-bars"></i>
+					<ul>
+						<button class="tablink" onclick="openPage('home', this, 'red')">Home</button>
+						<button class="tablink" onclick="openPage('blog', this, 'red')" id="defaultOpen">News</button>
+						<button class="tablink" onclick="openPage('person', this, 'red')">Team</button>
+						<button class="tablink" onclick="openPage('about', this, 'red')">About</button>
+						<button class="tablink" onclick="openPage('contact', this, 'red')">Contact</button>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
+
 <!---Home-------->
-		<section id="home">
-			<h1>Dinoware-Studios</h1>
-			<h2>Emergency Solutions</h2>
-			<a href="#about">
-				<img src="img/pfeil.png" alt="Pfeil">
-			</a>
-		</section>
+		<div id="home" class="tabcontent">
+		
+		</div>
 
-
-<!---Developement-------->
-		<section id="dev">
-			<h3>developement</h3>
-			<hr>
+<!---Blog-------->
+		<div id="blog" class="tabcontent">
 			
-			<div id="projects">
-				<ul>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="project_01"></a></li>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="project_02"></a></li>		
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="project_03"></a></li>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="project_04"></a></li>
-				</ul>
-			</div>
-		</section>
+		</div>
 
-<!---Developement-------->
-		<section id="team">
-			<h3>Team</h3>
-			<hr>
+<!---Person-------->
+		<div id="person" class="tabcontent">
 			
-			<div id="member">
-				<ul>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="member_01"></a></li>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="member_02"></a></li>		
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="member_03"></a></li>
-					<li><a href="#"</a><img src="http://placehold.it/300x170" alt="member_04"></a></li>
-				</ul>
-			</div>
-		</section>
+		</div>
 
 <!---About-------->
-		<section id="about">
-			<h3>About</h3>
-			<hr>
-			<img src="img/logo_avatar.png" alt="avatar">
-			<h4>Dinoware-Studios</h4>
-			<h4>placeholder for description</h4>
-			<p></p>
-		</section>
-
+		<div id="about" class="tabcontent">
+			
+		</div>
 <!---Contact-------->
-		<section id="contact">
-			<h3>Contact</h3>
-			<hr>
+		<div id="contact" class="tabcontent">
+			
+		</div>
 
-			<form>
-				<input type="email" tabindex="1" placeholder="email"><<br>
-				<input type="text" tabindex="2" placeholder="about"><<br>
-				<textarea tabindex="3" placeholder="message"></textarea><br>
-				<input class="button" type="submit">
-			</form>
-		</section>
 
 <!---Footer-------->
 		<footer>
 			<p>
-			&copy; 2018	dinoware-studios
+			&copy; 2019	Dominik Juelich
 			</p>
 		</footer>
 
